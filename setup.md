@@ -125,7 +125,7 @@ ipython
 
 &nbsp; <!-- vertical spacer -->
 
-## Option C: plain-vanilla Python interpreter
+## Option C: Plain-vanilla Python interpreter
 
 To launch a plain-vanilla Python interpreter, execute:
 ~~~
@@ -139,9 +139,18 @@ winpty python
 ~~~
 {: .source}
 
+## Option D: Use a MyBinder cloud server (non-local installation)
+
+As a last resort, you can use a ready-made MyBinder environment created for this lesson, click [here][binder]. This option is the least favourable since you will not be working with a local installation of Python that you can use after the workshop, so please try the above options first.
+
+> Note that this will take several minutes to run and you will not be able to save your work locally on your computer unless you download your workbooks before closing your browser. This option already contains the data files needed for this workshop.
+
+![binder example]({{ page.root }}{% link fig/setup-binder.png %})
+
 [anaconda-install]: https://docs.anaconda.com/anaconda/install
 [anaconda-instructions]: https://carpentries.github.io/workshop-template/#python
 [anaconda-website]: https://www.anaconda.com/
 [gitbash]: https://gitforwindows.org
+[binder]: https://mybinder.org/v2/gh/jnywong/swc-carpentries-python-binder/main?labpath=data%2Fmy-notebook.ipynb
 [zipfile1]: {{ page.root }}/data/python-novice-inflammation-data.zip
 [zipfile2]: {{ page.root }}/code/python-novice-inflammation-code.zip
